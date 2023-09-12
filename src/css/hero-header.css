@@ -123,7 +123,7 @@ header,
   transition: -webkit-transform 250ms ease-in-out;
   transition: transform 250ms ease-in-out;
 }
-.menu-container.is-open {
+.menu-container .is-open {
   transform: translateX(0);
   height: 100vh;
 }
@@ -146,7 +146,7 @@ header,
   flex-direction: column;
 }
 .hero-left-side h1 {
-  font-family: Seymour One;
+  font-family: 'Seymour One';
   font-size: 34px;
   letter-spacing: 1.04px;
   text-transform: uppercase;
@@ -218,11 +218,22 @@ header,
 }
 .hero-left-side_presentation {
   display: flex;
-  align-self: end;
+  width: 152px;
 }
-.hero-left-side_presentation_hero {
-  width: 177px;
-  max-width: 218px;
+.hero-left-side_presentation_description {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.hero-left-side_presentation_icon {
+  fill: #fcfcfc;
+}
+.hero-right-side_presentation_hero {
+  width: 100%;
+  height: auto;
 }
 .icon-dots {
   fill: var(--default-btn-color);
@@ -255,5 +266,10 @@ header,
 @media screen and (min-width: 767px) {
   .tablet {
     display: none;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .hero-right-side_presentation_hero {
+    max-width: 218px;
   }
 }
