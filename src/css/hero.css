@@ -1,63 +1,110 @@
 /* HERO styles */
 .hero {
-    background-color: var(--main-bg-color);
-    padding-top: 36px; 
+  background-color: var(--main-bg-color);
+  padding-top: 36px;
 }
 
 .hero-container {
-    position: relative;
-    margin-inline: auto;
-    width: 320px;
-    height: 459px;
+  position: relative;
+  margin-inline: auto;
+  width: 320px;
+  height: 459px;
 }
 
 .head-wrapper {
-    /* width: 247px; */
-    margin: 0 53px 32px 20px
+  /* width: 247px; */
+  margin: 0 53px 32px 20px;
 }
 
 .main-head {
-    color: var(--light-bg-font-color);
-    font-family: Seymour One;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 1.04px;
-    text-transform: uppercase;
+  color: var(--light-bg-font-color);
+  font-family: Seymour One;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.04px;
+  text-transform: uppercase;
 }
 
 .passion {
-    font-size: 34px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 96.5%;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 96.5%;
 }
 
 .franchise-numbers {
-    display: none;
+  display: none;
 }
 
 .hero-text {
-    display: none;
+  display: none;
 }
 
 .ice-cream-img-wrapper {
-    width: 177px;
-    height: 217px;
-    position: absolute;
-    bottom: 0;
-    left: 83px;
+  width: 177px;
+  height: 217px;
+  position: absolute;
+  bottom: 0;
+  left: 83px;
 }
 
 .ice-cream-img {
-    display: block;
-    width: 100%;
-    height: auto;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .icon-dots {
-    position: absolute;
-    bottom: 0;
-    fill: var(--default-btn-color);
+  position: absolute;
+  bottom: 0;
+  fill: var(--default-btn-color);
+}
+.hero-links {
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.hero-links_button {
+  width: 108px;
+  height: 38px;
+  border-radius: 8px;
+  border: 2px solid #f8d24e;
+  background-color: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.hero-links_button:hover {
+  border: 2px solid #0a8817;
+}
+.hero-links_nav {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-decoration: underline;
+  color: #f8d24e;
+}
+.hero-links_nav:hover {
+  color: #0a8817;
+}
+.hero-links_nav:focus {
+  color: #fcfcfc;
+}
+.hero-links_nav:disabled {
+  color: #ababab;
+}
+@media screen and (min-width: 768px) {
+  .hero-links_button:focus {
+    border: 2px solid #0a8817;
+    color: #fff;
+  }
+  .hero-links_button:disabled {
+    border: 2px solid #ababab;
+  }
 }
