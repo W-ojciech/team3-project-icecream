@@ -1,0 +1,2 @@
+(()=>{const e={openModalBtn:document.querySelector("[ingredients-modal-ice-cream-open]"),closeModalBtn:document.querySelector("[ingredients-modal-ice-cream-close]"),modal:document.querySelector("[ingredients-modal-ice-cream]")};function n(){e.modal.classList.toggle("is-hidden")}e.openModalBtn.addEventListener("click",n),e.closeModalBtn.addEventListener("click",n)})();
+//# sourceMappingURL=index.0bb17236.js.map

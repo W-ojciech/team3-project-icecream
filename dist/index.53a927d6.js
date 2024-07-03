@@ -1,0 +1,2 @@
+(()=>{const e={openModalBtn:document.querySelector("[ingredients-modal-ice-coffee-open]"),closeModalBtn:document.querySelector("[ingredients-modal-ice-coffee-close]"),modal:document.querySelector("[ingredients-modal-ice-coffee]")};function o(){e.modal.classList.toggle("is-hidden")}e.openModalBtn.addEventListener("click",o),e.closeModalBtn.addEventListener("click",o)})();
+//# sourceMappingURL=index.53a927d6.js.map

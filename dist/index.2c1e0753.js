@@ -1,0 +1,2 @@
+(()=>{const e={openModalBtn:document.querySelector("[ingredients-modal-milkshakes-open]"),closeModalBtn:document.querySelector("[ingredients-modal-milkshakes-close]"),modal:document.querySelector("[ingredients-modal-milkshakes]")};function n(){e.modal.classList.toggle("is-hidden")}e.openModalBtn.addEventListener("click",n),e.closeModalBtn.addEventListener("click",n)})();
+//# sourceMappingURL=index.2c1e0753.js.map
